@@ -8,8 +8,8 @@ import {
   import { useEffect, useState } from 'react';
   import { getMovieDetail } from 'queries';
   
-  import { MovieDescription } from './MovieDiscription/MovieDiscription';
-  import s from './MovieDiscription/';
+  import { MovieDescription } from './MovieDescription';
+  import s from './MovieDetails.module.css';
   
   export default function MovieDetails() {
     const [backPath, setPath] = useState('');
