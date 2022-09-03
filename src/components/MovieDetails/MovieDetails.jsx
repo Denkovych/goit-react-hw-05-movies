@@ -8,7 +8,7 @@ import {
   import { useEffect, useState } from 'react';
   import { getMovieDetail } from 'queries';
   
-  import { MovieDescription } from './MovieDescription/MovieDescription';
+  import { MovieDescription } from './MovieDescription';
   import s from './MovieDetails.module.css';
   
   export default function MovieDetails() {
